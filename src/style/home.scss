@@ -1,8 +1,6 @@
-.home {
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr minmax(50px, 1fr);
-}
+
 .home h1 {
     text-align: center;
-    margin-top: auto;
+    margin-top: 9%;
+    position: sticky;
 }
