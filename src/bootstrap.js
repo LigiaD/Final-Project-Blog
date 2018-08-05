@@ -2,30 +2,41 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-router-dom';
+import requireAuth from './components/requireAuth';
+
+import reducers from './reducers';
+import history from './history';
+
 
 
 import Home from './components/home';
-import NavBar from './components/nav-bar'
-import HomeContent from './components/home-content'
+import NewPost from './components/newpost';
 
 
-import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+const createStoreWithMiddleware = applyMiddleware(createStore);
+
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
 
+
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
-      <BrowserRouter>
-        <Home />
-      </BrowserRouter>
+      <Router history={history}>
+        <Switch>
+          
+            <Route path="/" exact component={Home}/>
+            <Route path="/newpost" component={requireAuth(NewPost)}/>
+        
+          
+        </Switch>
+      </Router>
     </Provider>
-    , document.querySelector('.app-wrapper'));
+    , document.querySelector('.home'));
 }
 
 document.addEventListener('DOMContentLoaded', main);

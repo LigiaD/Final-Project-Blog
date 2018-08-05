@@ -6,6 +6,7 @@ export default function Time({date}) {
         <div className='time'>
             <div className='time__day'>{date.getDate()}</div>
             <div className='time__month-year'>{months[date.getMonth()]} {date.getFullYear()}</div>
+            <div className='time__point'></div>
         </div>
         
     

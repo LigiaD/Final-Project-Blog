@@ -1,20 +1,25 @@
 
+
+
 .home-content {
-    height: 25vh;
-    background-color: rgb(113, 211, 211);
+    height: 30vh;
+   
     width: 95%;
     margin-left: 50px;
     
     position: relative;
     margin-top: 120px;
+
+    align-content: center;
+    justify-content: center;
     
 
     
 
     &__time {
-        
+        margin-top:15px;
         display: inline-block;
-        background-color: aliceblue;
+       
         height: 25vh;
         width: 10%;
         text-align: center;
@@ -26,27 +31,58 @@
     }
 
     &__img {
-        border-left: 5px solid rgb(113, 211, 211);
-        display: inline-block;
-        background-color: aliceblue;
+        border-top: 5px solid azure;
+        border-left: 5px solid azure;
+        border-bottom: 5px solid azure;
+         position: absolute;
+         top: 10px;
         height: 25vh;
-        width: 15%;
+         width: 15%;
+         display: inline-block;
+       
+        
 
     }
-    &__img p {
+    &__img  img {
         position: absolute;
+        height: 23vh;
+        width: 100%;
+        display: inline-block;
+        
        
-        text-align: center;
-    }
+
+   }
+
+   
     &__text {
-        border-left: 5px solid rgb(113, 211, 211);
+        border-top: 5px solid azure;
+        border-right: 5px solid $main-color;
+        border-bottom: 5px solid azure;
+        border-left: 5px solid $main-color;
+         position: absolute;
+        top: 10px;
+        margin-left: 15%;
+       
         display: inline-block;
         background-color: aliceblue;
         height: 25vh;
         width: 74.4%;
     }
-    &__text p {
+    &__text {
         position: absolute;
+
+        &__title p {
+            position: absolute;
+            font-size: 1.5em;
+            margin-left: 20px;
+            border-bottom: 1px solid $main-color;
+            width: 94.7%;
+
+        }
+
+        &__content p {
+            margin: 40px 20px 10px 20px; 
+        }
     
     }
 
@@ -57,7 +93,7 @@
         height: 5vh;
         width: 10%;
         position: absolute;
-        top: 19vh;
+        top: 20vh;
         right: 30px;
     }
     &__btn a {
@@ -68,4 +104,10 @@
     }
 
 
+}
+#upper-text {
+    position: absolute;
+    bottom: 190px;
+    left: 114px;
+    
 }

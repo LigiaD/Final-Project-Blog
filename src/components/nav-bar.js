@@ -39,7 +39,7 @@ class NavBar extends Component {
                 
             </div>
             
-            <h3 id="upper-text">Recent Posts</h3>
+           
 
         </div>
 
