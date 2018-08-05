@@ -2,108 +2,114 @@
 
 
 .home-content {
-    height: 30vh;
-   
-    width: 95%;
-    margin-left: 50px;
-    
-    position: relative;
-    margin-top: 120px;
-
-    align-content: center;
-    justify-content: center;
-    
-
-    
-
-    &__time {
-        margin-top:15px;
-        display: inline-block;
-       
-        height: 25vh;
-        width: 10%;
-        text-align: center;
-    }
-    &__time p {
-        position: absolute;
-       
-        text-align: center;
-    }
-
-    &__img {
-        border-top: 5px solid azure;
-        border-left: 5px solid azure;
-        border-bottom: 5px solid azure;
-         position: absolute;
-         top: 10px;
-        height: 25vh;
-         width: 15%;
-         display: inline-block;
-       
+     
+    &__recent-article {
+        position: relative;
+        display: block;
         
+        width: 59.5%;
+        height: 40vh;
+        margin-left: 6%;
+        margin-top: 50px;
 
-    }
-    &__img  img {
-        position: absolute;
-        height: 23vh;
-        width: 100%;
-        display: inline-block;
-        
-       
+            &__img  img {
+            
+            width: 35%;
+            height: 40vh;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+        }
 
-   }
-
-   
-    &__text {
-        border-top: 5px solid azure;
-        border-right: 5px solid $main-color;
-        border-bottom: 5px solid azure;
-        border-left: 5px solid $main-color;
-         position: absolute;
-        top: 10px;
-        margin-left: 15%;
-       
-        display: inline-block;
-        background-color: aliceblue;
-        height: 25vh;
-        width: 74.4%;
-    }
-    &__text {
-        position: absolute;
-
-        &__title p {
+            &__text {
+            
+            
             position: absolute;
-            font-size: 1.5em;
-            margin-left: 20px;
-            border-bottom: 1px solid $main-color;
-            width: 94.7%;
+            top:0;
+            left:36%;
+            
+            padding: 15px;
+                
+                &__title {
+                    font-family: $title;
+                    font-size: 1em;
+                }
 
+                &__content {
+                    font-family: $content;
+                    font-size: .8em;
+                }
+           
+            
+
+                &__btn a {
+                    color: $main-color;
+                    text-decoration: none;
+                    margin-left: 80%;
+                    font-family: $content;
+                    font-size: .7em;
+                } 
+
+                &__btn a :hover {
+                    
+                    border-bottom: 1px solid $main-color;
+                }
         }
 
-        &__content p {
-            margin: 40px 20px 10px 20px; 
-        }
-    
-    }
-
-    &__btn {
-      
-        display: inline-block;
-        background-color: rgb(113, 211, 211); ;
-        height: 5vh;
-        width: 10%;
-        position: absolute;
-        top: 20vh;
-        right: 30px;
-    }
-    &__btn a {
-        text-align: center;
-        text-decoration: none;
-        color: azure;
         
     }
+    &__about {
+        position: absolute;
+        top: 56.4%;
+        border-bottom: 5px solid $main-color;
+        width: 25%;
+        height: 135%;
+        margin-left: 68%;
+
+        &__img img {
+            width: 100%;
+            height: 65vh;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &__text {
+            padding: 15px;
+
+            &__title {
+                font-family: $title;
+                font-size: 1em;
+            }
+
+            &__content {
+                font-family: $content;
+                font-size: .8em;
+            }
+
+             &__btn a, &__link a {
+                 color: $main-color;
+                text-decoration: none;
+                display:flex;
+                align-content: center;
+                justify-content: center;
+                font-family: $content;
+                font-size: .8em;
+                
+            &__btn a :hover , &__link a :hover {
+                border-bottom: 1px solid $main-color;
+            }
 
 
+
+
+            }
+
+           
+        }
+        
+    }
+   
 }
 #upper-text {
     position: absolute;

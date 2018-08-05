@@ -1,21 +1,15 @@
 #navigation {
-    margin-top: 0;
-    background-color: $main-color;
-    width: 100%;
+
+
+    font-family: $title;
+    margin-top: 20%;
+    border-bottom: 6px solid $main-color;
+    width: 87%;
     height: 10vh;
-  
+    margin-left: 6%;
+    color:black;
   }
-  .dropdown:hover {
-      & a {
-      color : #70dbdbdb;}
-      & .dropdown-content a {
-      color : $text-color;
-      background-color: $main-color;
-      
-      } 
-    }
-    
-  
+ 
   ul {
       list-style-type: none;
       list-style: none;
@@ -23,7 +17,6 @@
       overflow: hidden;
       color: $main-color;
      
-      
   }
   
   li {
@@ -33,63 +26,28 @@
   li a, .dropbtn {
       text-decoration: none;
       display: inline-block;
-      color: $text-color;
+      color: black;
       text-align: center;
       padding: 14px;
       
   }
-  .dropdown:hover {
+  li a:hover {
+      
       color: $main-color;
-  }
-  li a:hover, .dropdown:hover {
-      background-color:#fff;
-      color: $main-color;
+      font-weight: 300;
       text-decoration: none;
      
   }
-  .dropdown-content:hover .dropbtn {
-      color : #70dbdbdb;
-  }
+
   
-  .dropdown-content {
-      text-decoration: none;
-      display: none;
-      position: absolute;
-      background-color: $main-color;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-  }
-  .dropdown-content a {
-      
-      color: $main-color;
-      padding: 12px 16px;
-      text-decoration: none;
-      text-align: left;
-  }
-  
-  .dropdown {
-      position : static;
-  }
+ 
+ 
   
   
-  .dropdown:hover  .dropdown-content {
-    display: block;
-  }
-  .dropdown-content a {
-      
-      padding: 12px 16px;
-      text-decoration: none;
-      text-align: center
-  }
+
   
-  .dropdown-content:hover{
-      
-      border: 1px solid $main-color;
-     
-    
-  }
   
+ 
   
   
   

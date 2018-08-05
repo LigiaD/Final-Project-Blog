@@ -8,19 +8,9 @@ class Home extends Component {
     return (
       
       <div className="home">
-      
+      <div className="home__title">Turcoaz Luna's blog</div>
+
         <NavBar />
-        <img className="home__img" src='../photos/wallpaper.png'></img>
-        <div className="home__title">Turcoaz Luna's blog</div>
-        <div className="home__quote">
-          <div className="home__quote__title">
-            <p>The qoute of the day:</p>
-          </div>
-          <div className="home__quote__content">
-            <p>"Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur." </p>
-          </div>
-        </div>
           <HomeContent />
         </div>
 
