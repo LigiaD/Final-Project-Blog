@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { Router, Route, Switch } from 'react-router-dom';
-import requireAuth from './components/requireAuth';
+
 
 import reducers from './reducers';
 import history from './history';
@@ -30,7 +30,7 @@ function main() {
         <Switch>
           
             <Route path="/" exact component={Home}/>
-            <Route path="/newpost" component={requireAuth(NewPost)}/>
+            <Route path="/newpost" component={NewPost}/>
         
           
         </Switch>

@@ -7,8 +7,10 @@ class NewPost extends Component {
 
   render() {
     return (
-      <div className="new-post">
+      <div>
         <NavBar/>
+        <div className="new-post">
+        </div>
         </div>
 
         );
