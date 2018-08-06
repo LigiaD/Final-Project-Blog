@@ -1,0 +1,110 @@
+.new-post {
+    
+    
+    display: block;
+    margin-left: 6%;
+    margin-top: 50px;
+    
+    background-color: $background-color;
+    width: 65%;
+    height: 100%;
+
+        &__text {
+            padding: 30px;
+
+            &__title {
+                text-align: center;
+                font-family: $title;
+                font-size: 2em;
+                
+
+            }
+
+            &__border {
+                border: 1px solid $main-color;
+                width: 50%;
+                margin-left: 25.5%;
+                margin-bottom: 15px;
+            }
+
+            &__content {
+                
+                font-family: $content;
+                font-size: .85em;
+            }
+
+            &__img img {
+                width: 75%;
+                height: 60vh;
+                margin-left: 13%;
+                padding-bottom: 17px;
+           }
+            &__img #img1 {
+                width: 60%;
+                height: 70vh;
+                margin-left: 20%;
+            }
+
+        }
+
+        &__other {
+            display: block;
+            position: absolute;     
+            top: 56%;
+                
+              
+            
+            border-bottom: 5px solid $main-color;
+            width: 20%;
+            height: 74vh;
+            margin-left: 75%;
+    
+            &__img img {
+                width: 90%;
+                height: 36vh;
+                padding-top: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+    
+            &__text {
+                padding: 15px;
+    
+                &__title {
+                    text-align: center;
+                    font-family: $title;
+                    font-size: 1em;
+                }
+    
+                &__content {
+                    font-family: $content;
+                    font-size: .8em;
+                }
+    
+                 &__btn a, &__link a {
+                     color: $main-color;
+                    text-decoration: none;
+                    display:flex;
+                    align-content: center;
+                    justify-content: center;
+                    font-family: $content;
+                    font-size: .8em;
+                    
+                }
+    
+               
+            }
+
+        }
+
+           
+
+        
+           
+            
+        
+
+    
+    
+   
+}

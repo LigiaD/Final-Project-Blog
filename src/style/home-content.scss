@@ -14,7 +14,7 @@
 
             &__img  img {
             
-            width: 35%;
+            width: 32%;
             height: 40vh;
             padding-top: 15px;
             padding-left: 15px;
@@ -37,22 +37,24 @@
 
                 &__content {
                     font-family: $content;
-                    font-size: .8em;
+                    font-size: .65em;
                 }
-           
-            
+
+                &__btn {
+                    width: 18%;
+                    margin-left: 80%;
+                    text-align: center;
+                }
 
                 &__btn a {
                     color: $main-color;
                     text-decoration: none;
-                    margin-left: 80%;
                     font-family: $content;
                     font-size: .7em;
                 } 
 
-                &__btn a :hover {
-                    
-                    border-bottom: 1px solid $main-color;
+                &__btn:hover {
+                    border-bottom: 1px solid $main-color;  
                 }
         }
 
@@ -96,9 +98,7 @@
                 font-family: $content;
                 font-size: .8em;
                 
-            &__btn a :hover , &__link a :hover {
-                border-bottom: 1px solid $main-color;
-            }
+        
 
 
 
