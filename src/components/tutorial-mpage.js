@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import TabNav from './tabnav';
-import TabNavComponent1 from "./tab-nav-comp1";
+import TabNavContent1 from "./tab-nav-comp1";
 import TabNavContent2 from "./tab-nav-comp2";
-import TabNavContent3 from "./tab-nav-component3";
+import TabNavContent3 from "./tab-nav-comp3";
 
 class TutorialMainPage extends Component {
 
@@ -15,7 +15,7 @@ class TutorialMainPage extends Component {
                 {
                     title: 'Make Up',
                     active: true,
-                    component: <TabNavComponent1 />
+                    component: <TabNavContent1 />
                 },
                 {
                     title: 'Clothing Styles',
