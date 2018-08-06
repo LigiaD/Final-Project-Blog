@@ -49,7 +49,7 @@ class NewPost extends Component {
           </div>
 
         </div>
-
+      <div className="new-post__sidebar">
         <div className="new-post__other">
           <div className="new-post__other__img" >
             <img src="../photos/article2.jpg"></img>
@@ -103,7 +103,7 @@ class NewPost extends Component {
           </div>
 
          </div>
-
+      </div>
 
 
       </div >

@@ -102,9 +102,9 @@ class HomeContent extends Component {
                                 esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                         <div className="home-content__about__text__btn">
-                            <a href="#"> About me</a>
+                            <a href="/about"> About me</a>
                         </div>
-                        <div className="home-content__about__text__link"><a href="#"> My gallery</a></div>
+                        
                     </div>
                 </div>
 

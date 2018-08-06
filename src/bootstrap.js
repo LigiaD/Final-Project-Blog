@@ -12,14 +12,16 @@ import history from './history';
 
 import Home from './components/home';
 import NewPost from './components/newpost';
-
-
+import Tutorials from './components/tutorials';
+import About from './components/about';
 
 const createStoreWithMiddleware = applyMiddleware(createStore);
 
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
+
+
 
 
 
@@ -30,7 +32,10 @@ function main() {
         <Switch>
           
             <Route path="/" exact component={Home}/>
+            <Route path="/home" component={Home}/>
             <Route path="/newpost" component={NewPost}/>
+            <Route path="/tutorials" component={Tutorials}/>
+            <Route path="/about" component={About}/>
         
           
         </Switch>
