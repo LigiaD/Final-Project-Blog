@@ -1,0 +1,35 @@
+.about {
+    display: block;
+    
+
+    &__img img {
+        position: absolute;
+        top: 70%;
+        width: 30%;
+        height: 85%;
+        margin-left: 3%;
+        
+    }
+    &__text {
+        
+        margin-top: 4.8%;
+        margin-left: 35%;
+        border: 1px solid #c4c4d4;
+        width: 60%;
+        height: 97vh;
+        text-align: center;
+        padding: 20px;
+        &__title {
+            font-family: $title;
+            font-size: 100%;
+
+        }
+
+        &__content {
+            font-family: $content;
+            font-size: 80%;
+
+        }
+    }
+
+}

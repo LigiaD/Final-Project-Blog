@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import NavBar from '../components/nav-bar';
+import Footer from './footer';
 
 
 class NewPost extends Component {
@@ -10,6 +11,7 @@ class NewPost extends Component {
       <div>
         <div className="home__title">Turcoaz Luna's blog</div>
         <NavBar />
+        
         <div className="new-post">
           <div className="new-post__text">
             <div className="new-post__text__title"><p>Some Title</p></div>
@@ -105,9 +107,9 @@ class NewPost extends Component {
          </div>
       </div>
 
-
+      <Footer />
       </div >
-
+   
     );
 
   }

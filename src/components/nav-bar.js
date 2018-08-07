@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 
+import NavLink from "./nav_links";
+
 class NavBar extends Component {
     render() {
         return (
         <div>
+            <nav>
             <div id="navigation">
                 <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about" className="dropbtn">About Me</a></li>
-                    <li><a href="#" className="dropbtn">Articles</a>  </li>
-                     <li><a href="/tutorials" className="dropbtn">Fashion Tutorials</a> </li>                          
-                    <li><a href="#">News</a></li>
+                    <li><NavLink to='/home'>Home</NavLink></li>
+                    <li><NavLink to='/about'>About Me</NavLink></li>
+                    <li><NavLink to='#'>Articles</NavLink></li>
+                    <li><NavLink to='/tutorials'>Fashion Tutorials</NavLink></li>                          
+                    <li><NavLink to='#'>News</NavLink></li>
                 </ul>
-                
             </div>
-            
+            </nav>
            
 
         </div>

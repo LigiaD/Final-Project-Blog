@@ -2,24 +2,57 @@
 
 
 .home-content {
-     
+     margin-top: 7%;
+
     &__recent-article {
         position: relative;
+        margin-top: 3%;
         display: block;
+        
         
         width: 59.5%;
         height: 40vh;
-        margin-left: 6%;
-        margin-top: 50px;
+        margin-left: 7%;
+        
+        border: 1px solid #c4c4d4;
+        box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .1);
+        
+        
 
             &__img  img {
-            
-            width: 32%;
+        
+            width: 31%;
             height: 40vh;
             padding-top: 15px;
-            padding-left: 15px;
+            padding-left: 25px;
             padding-bottom: 15px;
-        }
+            }
+
+            &__category {
+                position: absolute;
+                
+                margin-top: -48px;
+                margin-left: 25px;
+                width: 27.3%;
+                background-color: rgba($color:#59057B, $alpha: 0.4);
+                height: 6vh;
+                
+               
+            }
+
+            #p {
+                opacity: 5;
+                font-weight: 500;
+                text-align: center;
+                
+                color: $footer-text;
+               
+                font-family: $title;
+                font-size: 1.3em;
+                
+
+            }
+        
 
             &__text {
             
@@ -59,6 +92,8 @@
         }
 
         
+
+        
     }
     &__about {
         position: absolute;
@@ -68,7 +103,11 @@
         height: 135%;
         margin-left: 68%;
 
+        border: 1px solid #c4c4d4;
+        
+
         &__img img {
+
             width: 100%;
             height: 65vh;
             padding-top: 15px;
@@ -82,14 +121,17 @@
             &__title {
                 font-family: $title;
                 font-size: 1em;
+                
+            
             }
+           
 
             &__content {
                 font-family: $content;
                 font-size: .8em;
             }
 
-             &__btn a, &__link a {
+             &__btn a {
                  color: $main-color;
                 text-decoration: none;
                 display:flex;
@@ -109,11 +151,14 @@
         }
         
     }
-   
-}
-#upper-text {
+   #upper-text {
     position: absolute;
-    bottom: 190px;
-    left: 114px;
+    top: 55.5%;
+    left: 7%;
+    font-family: $title;
+    font-size: 1.3em;
     
+    
+}
+
 }

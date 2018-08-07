@@ -8,6 +8,14 @@ class TabNavContent1 extends Component {
         return (
 
             <div className="content">
+                <div className="content__border1"></div>
+                <div className="content__border2"></div>
+                <div className="content__border3"></div>
+                <div className="content__border4"></div>
+                <div className="content__border5"></div>
+                <div className="content__border6"></div>
+                <div className="content__border7"></div>
+                <div className="content__border8"></div>
                 <div className="content__videos">
                     <iframe 
                         src="https://www.youtube.com/embed/vscoMXrUPlU?rel=0"
