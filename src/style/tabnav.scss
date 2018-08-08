@@ -23,6 +23,10 @@
         margin-top: 50px;
         font-family: $title;
     }   
+    &__tabs:hover {
+        cursor: pointer;
+        
+    }
 
     &__tab {
         grid-row: m/e;
