@@ -5,15 +5,14 @@ class HomeContent extends Component {
     render() {
         return (
             <div className="home-content">
-                <div id="upper-text"><p>Recent Posts</p></div>
+                <div id="upper-text"><h1>Recent Posts</h1></div>
                 <div className="home-content__recent-article">
                     <div className="home-content__recent-article__img">
                         <img src="../photos/article1.jpg"></img>
-                    </div>
                         <div className="home-content__recent-article__category">
                             <p id="p">Fun</p>
                         </div>
-                
+                    </div>
                     <div className="home-content__recent-article__text">
                         <div className="home-content__recent-article__text__title"><p>Some Title</p></div>
                         <div className="home-content__recent-article__text__content">
@@ -36,10 +35,11 @@ class HomeContent extends Component {
                 <div className="home-content__recent-article">
                     <div className="home-content__recent-article__img">
                         <img src="../photos/article2.jpg"></img>
-                    </div>
-                    <div className="home-content__recent-article__category">
+                        <div className="home-content__recent-article__category">
                             <p id="p">Beauty</p>
+                        </div>
                     </div>
+                    
                     <div className="home-content__recent-article__text">
                         <div className="home-content__recent-article__text__title"><p>Some Title</p></div>
                         <div className="home-content__recent-article__text__content">
@@ -60,10 +60,11 @@ class HomeContent extends Component {
                 <div className="home-content__recent-article">
                     <div className="home-content__recent-article__img">
                         <img src="../photos/article3.jpg"></img>
-                    </div>
-                    <div className="home-content__recent-article__category">
+                        <div className="home-content__recent-article__category">
                             <p id="p">Friendship</p>
+                        </div>
                     </div>
+                    
                     <div className="home-content__recent-article__text">
                         <div className="home-content__recent-article__text__title"><p>Some Title</p></div>
                         <div className="home-content__recent-article__text__content">
@@ -83,10 +84,11 @@ class HomeContent extends Component {
                 <div className="home-content__recent-article">
                     <div className="home-content__recent-article__img">
                         <img src="../photos/article5.jpg"></img>
-                    </div>
-                    <div className="home-content__recent-article__category">
+                        <div className="home-content__recent-article__category">
                             <p id="p">Pets</p>
+                        </div>
                     </div>
+                    
                     <div className="home-content__recent-article__text">
                         <div className="home-content__recent-article__text__title"><p>Some Title</p></div>
                         <div className="home-content__recent-article__text__content">

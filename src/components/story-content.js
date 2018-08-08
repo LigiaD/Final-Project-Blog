@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 class StoryContent extends Component {
@@ -53,7 +52,3 @@ class StoryContent extends Component {
 }
 
 export default StoryContent;
-
-
-
-

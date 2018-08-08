@@ -13,12 +13,10 @@ class Home extends Component {
       <div className="home__logo">
           <img src="../photos/logo.png"></img>
       </div>
-
         <NavBar />
         <HomeContent />
         <Footer />
         </div>
-
         );
        
       }

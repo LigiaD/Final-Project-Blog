@@ -18,11 +18,11 @@ class Footer extends Component {
                 </div>
                 <div className="footer__border"></div>
                 <div className="footer__icons">
-                    <i class="fab fa-pinterest"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-facebook-messenger"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-pinterest"></i>
+                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-facebook-messenger"></i>
+                    <i className="fab fa-twitter-square"></i>
+                    <i className="fab fa-instagram"></i>
                 </div>
                
             </div>

@@ -17,19 +17,21 @@ class TabNavContent3 extends Component {
                 <div className="content__border7"></div>
                 <div className="content__border8"></div>
                 <div className="content__videos">
+                <div className="content__videos__1st_line">
                     <iframe 
                         src="https://www.youtube.com/embed/CR4pXwu8xho?rel=0"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe><br></br>
                     <iframe 
                         src="https://www.youtube.com/embed/IIB9Q8MRAKg?rel=0"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <iframe 
+                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                    </div>
+                  <div className="content__videos__2nd_line"> <iframe 
                         src="https://www.youtube.com/embed/3lqUKq24ax8?rel=0"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     <iframe 
                         src="https://www.youtube.com/embed/zugLQF3uLmk?rel=0"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
+                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                </div></div>
             </div>
 
         );

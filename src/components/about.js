@@ -16,13 +16,8 @@ class About extends Component {
         <NavBar />
         <AboutMainPage />
         <Footer />
-
       </div>
-
     );
-
   }
-
 }
-
 export default About;

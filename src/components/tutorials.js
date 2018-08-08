@@ -19,14 +19,8 @@ class Tutorials extends Component {
       <TutorialMainPage />
       <Footer />
       </div>
-
-        );
-       
+        );  
       }
-     
-
-
-
     }
     
 export default Tutorials;

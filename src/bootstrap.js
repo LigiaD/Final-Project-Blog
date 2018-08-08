@@ -15,7 +15,8 @@ import NewPost from './components/newpost';
 import Tutorials from './components/tutorials';
 import About from './components/about';
 
-const createStoreWithMiddleware = applyMiddleware(createStore);
+
+const Store = createStore(reducers);
 
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -27,7 +28,7 @@ import './style/main.scss';
 
 function main() {
   ReactDOM.render(
-    <Provider store={createStoreWithMiddleware(reducers)}>
+    <Provider store={Store}>
       <Router history={history}>
         <Switch>
           
